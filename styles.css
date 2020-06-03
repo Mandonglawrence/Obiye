@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: verdana;
+}
+header{
+	position: fixed;
+	width: 100%;
+	background-color: pink;
+	height: 50px;
+	text-align:center;
+	border: 2px solid #fff;
+	border-bottom-right-radius: 60px;
+	z-index: 1000;
+}
+#logo{
+	float: left;
+	padding-left: 18px;
+	padding-top: 15px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: 80px;
+	font-size: 20px;
+}
+#nav{
+	float: right;
+	padding-right: 12px;
+	padding: 10px;
+	/*background-color: #fff;*/
+	height: 20px;
+	text-align: center;
+}
+#nav li{
+	display: inline-block;
+	margin: 5px;
+}
+#nav li a{
+	color: #333;
+	text-decoration:none;
+	transition:1s ease-out;
+}
+#nav li a:hover{
+	text-decoration: underline #fff 4px;
+}
+#nav_wrapper{
+	width: 100%;
+	background-color: #9817;
+	height: 50px;
+	border-top-right-radius: 46px;
+	color: #897;
+}
+#main{
+	margin-top: 60px;
+	background: #fff;
+	/*height: 500px;*/
+	position: absolute;
+	width: 100%;
+}
+#part1{
+	text-align: center;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+}
+#part1 p{
+/*text-align: center;*/
+padding-top: 80px;
+padding-left: 8px;
+}
+#part1 #profimg{
+	padding-right: 15px; 
+	border-radius: 12px;
+	box-shadow: 4px 4px 3px #fff;
+}
+#part1 #profimg img{
+	width: 250px;
+	border-radius: 50%;
+}
+#part1 #profimg article{
+	padding: 12px;
+	background-color: gray;
+	border-radius: 10%;
+	color: #fff;
+}
+main{
+    width:100%;
+}
+
+footer{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	margin-top: 20px;
+	padding: 15px;
+	width: 100%;
+	box-sizing:border-box;
+}
